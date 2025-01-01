@@ -7,6 +7,7 @@ from win10toast import ToastNotifier
 n = ToastNotifier()
 
 
+
 # define a function
 def getdata(url):
     r = requests.get(url)
